@@ -139,7 +139,7 @@ h2 {
 
 #transform-world {
     background-size: cover;
-    background-image: url(/assets/images/woman-code.png);
+    background-image: url(../images/woman-code.png);
     height: 363px;
     background-attachment: fixed;
     border-top: 1px solid rgba(51, 168, 219, 1);

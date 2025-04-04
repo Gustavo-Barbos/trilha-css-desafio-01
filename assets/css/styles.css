@@ -14,6 +14,10 @@ p {
     color: rgba(255, 255, 255, 1);
 }
 
+section {
+    margin: 100px auto;
+}
+
 .banner {
     background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)),
         url(../images/banner2.png);
@@ -95,6 +99,40 @@ p {
     border-image: linear-gradient(#3BA1CD, #1572B7);
     border-image-slice: 10;
     border-radius: 30px;
+}
 
 
+#course-content {
+    width: 800px;
+    text-align: center;
+}
+
+h2 {
+    color: #33A8DB;
+    font-size: 2rem;
+    line-height: 100%;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.modules-list {
+    margin: 24px 0;
+}
+
+.modules-list .module {
+    color: white;
+    width: 535px;
+    height: 51px;
+    margin: 0 auto 24px;
+    border-radius: 57px;
+    padding: 16px;
+    border: 1px solid #33A8DB;
+    background-color: #252525;
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, 0.7);
+}
+
+.modules-list .module span {
+    color: #33A8DB;
 }

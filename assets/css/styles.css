@@ -162,10 +162,27 @@ h2 {
 
 #professional-challenges {
     width: 800px;
-    height: 76px;
     text-align: center;
 }
 
 #professional-challenges img {
     margin: 32px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 60px 0;
+    background-image: linear-gradient(rgba(51, 168, 219, 0), rgba(51, 168, 219, 0.2));
+    border-top: 1px solid rgba(51, 168, 219, 1);
+
+}
+
+footer .dio-logo {
+    width: 300px;
+}
+
+footer a {
+    color: #33A8DB;
+    font-weight: bold;
+    text-decoration: none;
 }
